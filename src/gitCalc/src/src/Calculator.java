@@ -1,4 +1,4 @@
-package src;
+package gitCalc.src.src;
 
 import java.io.*;
 import java.util.Scanner;
@@ -6,19 +6,18 @@ import java.util.Scanner;
 public class Calculator {
 
 	public static void main(String[] args) {
-		int luku1;
-		int luku2;
+
+
+		int luku3;
+		int luku4;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Anna 3. luku");
+		luku3 = input.nextInt();
+		System.out.println("Anna 4. luku");
+		luku4 = input.nextInt();
+		System.out.println("Summa on "+(luku3+luku4));
 		
-		System.out.println("Anna 1. luku"); // kommentti
-		System.out.println("Anna 1. luku"); //lol
-		
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println(sc);
-		
-		//luku1 = System.in();
-		
-		// System.out.println(luku1);
+
 
 	}
 
